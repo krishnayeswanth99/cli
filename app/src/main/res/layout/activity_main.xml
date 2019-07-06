@@ -38,6 +38,7 @@
     <Button
         android:id="@+id/capture"
         android:text="Capture"
+        android:onClick="onClick"
         android:layout_below="@id/t"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="10dp"
@@ -47,6 +48,7 @@
     <Button
         android:id="@+id/disconnect"
         android:text="Disconnect"
+        android:onClick="onClick"
         android:layout_marginLeft="5dp"
         android:layout_below="@id/t"
         android:layout_toRightOf="@id/capture"
